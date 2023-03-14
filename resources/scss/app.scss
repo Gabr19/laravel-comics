@@ -1,20 +1,36 @@
 @import "~bootstrap/scss/bootstrap";
 
-.row {
-    > * {
-        height: 100vh;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        color: lightcoral;
-        background-color: aquamarine;
-        background-image: url('../img/laravel.png');
-        background-size: 50px 50px;
-    }
+.container{
+    background-color: gray;
 }
 
-img {
-    max-height: 150px;
+.card{
+    background-color: lightseagreen;
+    min-height: 250px;
+    width: 200px;
+    margin-bottom: 20px;
 }
+
+.img > img{
+    height: 200px;
+    width: 100%;
+}
+
+// .row {
+//     > * {
+//         height: 100vh;
+
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+
+//         color: lightcoral;
+//         background-color: aquamarine;
+//         background-image: url('../img/laravel.png');
+//         background-size: 50px 50px;
+//     }
+// }
+
+// img {
+//     max-height: 150px;
+// }
